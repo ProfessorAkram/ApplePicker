@@ -27,6 +27,14 @@ public class Apple : MonoBehaviour
         if(transform.position.y < bottomY)
         {
             Destroy(this.gameObject); //Destory gameObjet
+
+            //Get reference to ApplePicker component of GameManager
+            ApplePicker apScript = GameObject.Find("GameManager").GetComponent<ApplePicker>();
+
+            //call the public appleDestory() method of apScript
+            apScript.AppleDestoryed();
+
+
         }//end if(transform.position.y < bottomY)
 
     }//end Update()
