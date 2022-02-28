@@ -19,7 +19,7 @@ public class ApplePicker : MonoBehaviour
 
     [Header("SET IN INSPECTOR")]
     public GameObject basketPrefab; //basket prefab
-    public int numberOfBaskets; //number of total baskets at start
+    private int numberOfBaskets; //number of total baskets at start
     public float basketBottomY = -14f; //bottom distance for basket
     public float basketSpacingY = 2F; //distance for each basket
     public List<GameObject> basketList; // list of baskes
@@ -29,7 +29,9 @@ public class ApplePicker : MonoBehaviour
     {
         gm = GameManager.GM; //find the game manager
 
-        if (numberOfBaskets == null) { numberOfBaskets = gm.Lives; }
+        numberOfBaskets = gm.Lives; //use the lives from game manager
+
+        Debug.Log("baskets " + numberOfBaskets);
 
         //For totale number of baskets, create baskets
         for (int i= 0; i<numberOfBaskets; i++)
@@ -57,17 +59,20 @@ public class ApplePicker : MonoBehaviour
             Destroy(tGo);
         }
 
-        //Desoty one of the Baskets when apple is not catched
+        //Destroy one of the Baskets when apple is not catched
         int basketIndex = basketList.Count - 1; //get the index of the last basket in the list because the baskets are added from the bottom up
         GameObject tBasketGo = basketList[basketIndex]; //get the reference to the last basket
         basketList.RemoveAt(basketIndex); //remove the basket from the list
         Destroy(tBasketGo); //destory the basket
+        gm.LostLife(); //subtract from lives
 
+        /*NOT relavent 
         //Restart if no more baskets
         if(basketList.Count == 0)
         {
             SceneManager.LoadScene("_Scene-00"); //reload scene
         }//end if(basketList.Count == 0)
+        */
 
     }//end AppleDestoryed()
 }

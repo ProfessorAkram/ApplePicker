@@ -181,7 +181,7 @@ MonoBehaviour:
   startScene: start_scene
   gameOverScene: end_scene
   gameLevels:
-  - level_00
+  - level-00
   gameLevelsCount: 0
   TestGameManager: 1
   levelLost: 0

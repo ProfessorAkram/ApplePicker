@@ -15,12 +15,17 @@ using UnityEngine.UI; //enable UI libraries
 public class Basket : MonoBehaviour
 {
     /**** VARIABLES ****/
+    GameManager gm; //reference to game manager
+
     public Text scoreGT;
 
 
     // Start is called before the first frame update
     void Start()
     {
+        gm = GameManager.GM; //find the game manager
+
+        /*NOT RELAVENT WITH NEW HUD
         //Find a reference to the ScoreCounter GameObject
         GameObject scoreGo = GameObject.Find("ScoreCounter");
 
@@ -29,6 +34,7 @@ public class Basket : MonoBehaviour
 
         //set the starting score
         scoreGT.text = "0";
+        */
     }
 
     // Update is called once per frame

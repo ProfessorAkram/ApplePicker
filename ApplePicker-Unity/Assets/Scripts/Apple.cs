@@ -18,6 +18,9 @@ public class Apple : MonoBehaviour
     public static float bottomY = -20f; //the bottom y location
     /*NOTE: Static variables are shared by all instances, think of them as a single global varaible for all instances of the class*/
 
+    //ADDED 
+    public int applePoint = 100; //point value of apples
+
 
 
     // Update is called once per frame
@@ -28,8 +31,8 @@ public class Apple : MonoBehaviour
         {
             Destroy(this.gameObject); //Destory gameObjet
 
-            //Get reference to ApplePicker component of GameManager
-            ApplePicker apScript = GameObject.Find("GameManager").GetComponent<ApplePicker>();
+            //Get reference to ApplePicker 
+            ApplePicker apScript = GameObject.FindObjectOfType<ApplePicker>();
 
             //call the public appleDestory() method of apScript
             apScript.AppleDestoryed();
