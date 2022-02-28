@@ -15,11 +15,11 @@ D:/ONE DRIVE/OneDrive - University of Tulsa/_PROJECTS/Unity/GameDesignPrototypin
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65502
+65346
 Successfully changed project path to: D:/ONE DRIVE/OneDrive - University of Tulsa/_PROJECTS/Unity/GameDesignPrototypingDevelopment/ApplePicker/ApplePicker-Unity
 D:/ONE DRIVE/OneDrive - University of Tulsa/_PROJECTS/Unity/GameDesignPrototypingDevelopment/ApplePicker/ApplePicker-Unity
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 36.13 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 51.09 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path D:/Program Files/Unity/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -35,167 +35,92 @@ Initialize mono
 Mono path[0] = 'D:/Program Files/Unity/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/Unity/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Program Files/Unity/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56392
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56648
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/Unity/2020.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Program Files/Unity/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003986 seconds.
+Registered in 0.343775 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 28.36 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 28.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.549 seconds
+- Completed reload, in  2.910 seconds
 Domain Reload Profiling:
-	ReloadAssembly (550ms)
-		BeginReloadAssembly (61ms)
+	ReloadAssembly (2935ms)
+		BeginReloadAssembly (303ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (416ms)
-			LoadAssemblies (58ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1751ms)
+			LoadAssemblies (224ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (132ms)
+			SetupTypeCache (176ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (144ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (1405ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (744ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (30ms)
-				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (71ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (452ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009366 seconds.
-Assertion failed on expression: 'res'
-Unknown error occurred while loading 'Library/Artifacts/f5/f5b411f1453287584a8d53336f69e4a7'.
-Assertion failed on expression: 'res'
-Unknown error occurred while loading 'Library/Artifacts/f9/f902b87f3e2b3ce3a8cafe55132ef066'.
-Assertion failed on expression: 'res'
-Unknown error occurred while loading 'Library/Artifacts/f8/f827456723a9807c3b68a3046c9d5a42'.
-Assertion failed on expression: 'res'
-Unknown error occurred while loading 'Library/Artifacts/f5/f5dc7e750e91dabd9da4722229c35027'.
-Assertion failed on expression: 'res'
-Unknown error occurred while loading 'Library/Artifacts/f7/f7bc76c117c373f640d5caa90f26fd6c'.
-Assertion failed on expression: 'res'
-Unknown error occurred while loading 'Library/Artifacts/fd/fd40c710a94d873e2aedce0c7863c98a'.
-Assertion failed on expression: 'res'
-Unknown error occurred while loading 'Library/Artifacts/fd/fd4e3eb9ad2e8c239270788ad75c4266'.
-Assertion failed on expression: 'res'
-Unknown error occurred while loading 'Library/Artifacts/f7/f728be4ebb6e9e1abc567bf697d89e45'.
-Assertion failed on expression: 'res'
-Unknown error occurred while loading 'Library/Artifacts/f7/f7eb64b6e8bc1f8a9f1a1f4b40907e00'.
-Assertion failed on expression: 'res'
-Unknown error occurred while loading 'Library/Artifacts/ff/ffccea350927d524842939814b18ba46'.
-Assertion failed on expression: 'res'
-Unknown error occurred while loading 'Library/Artifacts/fc/fc08f2fc8a66413a9492a20c59e0ab5e'.
-Assertion failed on expression: 'res'
-Unknown error occurred while loading 'Library/Artifacts/fb/fb0bed6c40588d44d3fdf3448efbe9e2'.
-Assertion failed on expression: 'res'
-Unknown error occurred while loading 'Library/Artifacts/f4/f4375e9fe9b736591974eb178156b151'.
-Assertion failed on expression: 'res'
-Unknown error occurred while loading 'Library/Artifacts/fe/fe30c97c39347e286c048c328845e37d'.
-Assertion failed on expression: 'res'
-Unknown error occurred while loading 'Library/Artifacts/fc/fcf77862beea99cc3ce74dae2962c8e5'.
+Registered in 0.161340 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.891 seconds
+- Completed reload, in  1.770 seconds
 Domain Reload Profiling:
-	ReloadAssembly (894ms)
-		BeginReloadAssembly (135ms)
+	ReloadAssembly (1795ms)
+		BeginReloadAssembly (242ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (694ms)
-			LoadAssemblies (90ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1496ms)
+			LoadAssemblies (101ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (252ms)
+			SetupTypeCache (273ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (251ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (993ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (162ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				InitializePlatformSupportModulesInManaged (243ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (625ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Assertion failed on expression: 'res'
-Failed to load 'D:/ONE DRIVE/OneDrive - University of Tulsa/_PROJECTS/Unity/GameDesignPrototypingDevelopment/ApplePicker/ApplePicker-Unity/Library/Artifacts/f5/f5b411f1453287584a8d53336f69e4a7'. File may be corrupted or was serialized with a newer version of Unity.
-Assertion failed on expression: 'res'
-Failed to load 'D:/ONE DRIVE/OneDrive - University of Tulsa/_PROJECTS/Unity/GameDesignPrototypingDevelopment/ApplePicker/ApplePicker-Unity/Library/Artifacts/f9/f902b87f3e2b3ce3a8cafe55132ef066'. File may be corrupted or was serialized with a newer version of Unity.
-Assertion failed on expression: 'res'
-Failed to load 'D:/ONE DRIVE/OneDrive - University of Tulsa/_PROJECTS/Unity/GameDesignPrototypingDevelopment/ApplePicker/ApplePicker-Unity/Library/Artifacts/f8/f827456723a9807c3b68a3046c9d5a42'. File may be corrupted or was serialized with a newer version of Unity.
-Assertion failed on expression: 'res'
-Failed to load 'D:/ONE DRIVE/OneDrive - University of Tulsa/_PROJECTS/Unity/GameDesignPrototypingDevelopment/ApplePicker/ApplePicker-Unity/Library/Artifacts/f5/f5dc7e750e91dabd9da4722229c35027'. File may be corrupted or was serialized with a newer version of Unity.
-Assertion failed on expression: 'res'
-Failed to load 'D:/ONE DRIVE/OneDrive - University of Tulsa/_PROJECTS/Unity/GameDesignPrototypingDevelopment/ApplePicker/ApplePicker-Unity/Library/Artifacts/f7/f7bc76c117c373f640d5caa90f26fd6c'. File may be corrupted or was serialized with a newer version of Unity.
-Assertion failed on expression: 'res'
-Failed to load 'D:/ONE DRIVE/OneDrive - University of Tulsa/_PROJECTS/Unity/GameDesignPrototypingDevelopment/ApplePicker/ApplePicker-Unity/Library/Artifacts/fd/fd40c710a94d873e2aedce0c7863c98a'. File may be corrupted or was serialized with a newer version of Unity.
-Assertion failed on expression: 'res'
-Failed to load 'D:/ONE DRIVE/OneDrive - University of Tulsa/_PROJECTS/Unity/GameDesignPrototypingDevelopment/ApplePicker/ApplePicker-Unity/Library/Artifacts/fd/fd4e3eb9ad2e8c239270788ad75c4266'. File may be corrupted or was serialized with a newer version of Unity.
-Assertion failed on expression: 'res'
-Failed to load 'D:/ONE DRIVE/OneDrive - University of Tulsa/_PROJECTS/Unity/GameDesignPrototypingDevelopment/ApplePicker/ApplePicker-Unity/Library/Artifacts/f7/f728be4ebb6e9e1abc567bf697d89e45'. File may be corrupted or was serialized with a newer version of Unity.
-Assertion failed on expression: 'res'
-Failed to load 'D:/ONE DRIVE/OneDrive - University of Tulsa/_PROJECTS/Unity/GameDesignPrototypingDevelopment/ApplePicker/ApplePicker-Unity/Library/Artifacts/f7/f7eb64b6e8bc1f8a9f1a1f4b40907e00'. File may be corrupted or was serialized with a newer version of Unity.
-Assertion failed on expression: 'res'
-Failed to load 'D:/ONE DRIVE/OneDrive - University of Tulsa/_PROJECTS/Unity/GameDesignPrototypingDevelopment/ApplePicker/ApplePicker-Unity/Library/Artifacts/ff/ffccea350927d524842939814b18ba46'. File may be corrupted or was serialized with a newer version of Unity.
-Assertion failed on expression: 'res'
-Failed to load 'D:/ONE DRIVE/OneDrive - University of Tulsa/_PROJECTS/Unity/GameDesignPrototypingDevelopment/ApplePicker/ApplePicker-Unity/Library/Artifacts/fc/fc08f2fc8a66413a9492a20c59e0ab5e'. File may be corrupted or was serialized with a newer version of Unity.
-Assertion failed on expression: 'res'
-Failed to load 'D:/ONE DRIVE/OneDrive - University of Tulsa/_PROJECTS/Unity/GameDesignPrototypingDevelopment/ApplePicker/ApplePicker-Unity/Library/Artifacts/fb/fb0bed6c40588d44d3fdf3448efbe9e2'. File may be corrupted or was serialized with a newer version of Unity.
-Assertion failed on expression: 'res'
-Failed to load 'D:/ONE DRIVE/OneDrive - University of Tulsa/_PROJECTS/Unity/GameDesignPrototypingDevelopment/ApplePicker/ApplePicker-Unity/Library/Artifacts/f4/f4375e9fe9b736591974eb178156b151'. File may be corrupted or was serialized with a newer version of Unity.
-Assertion failed on expression: 'res'
-Failed to load 'D:/ONE DRIVE/OneDrive - University of Tulsa/_PROJECTS/Unity/GameDesignPrototypingDevelopment/ApplePicker/ApplePicker-Unity/Library/Artifacts/fe/fe30c97c39347e286c048c328845e37d'. File may be corrupted or was serialized with a newer version of Unity.
-Assertion failed on expression: 'res'
-Failed to load 'D:/ONE DRIVE/OneDrive - University of Tulsa/_PROJECTS/Unity/GameDesignPrototypingDevelopment/ApplePicker/ApplePicker-Unity/Library/Artifacts/fc/fcf77862beea99cc3ce74dae2962c8e5'. File may be corrupted or was serialized with a newer version of Unity.
 ========================================================================
 Worker process is ready to serve import requests
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.85 seconds
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1494 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.1 MB.
-System memory in use after: 68.2 MB.
+Unloading 1513 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.5 MB.
+System memory in use after: 68.6 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1924.
-Total: 3.150800 ms (FindLiveObjects: 0.119800 ms CreateObjectMapping: 0.050900 ms MarkObjects: 2.891400 ms  DeleteObjects: 0.087100 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1945.
+Total: 3.087000 ms (FindLiveObjects: 0.162200 ms CreateObjectMapping: 0.086200 ms MarkObjects: 2.721600 ms  DeleteObjects: 0.115300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -209,482 +134,8 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/_Scene-01.unity
-  artifactKey: Guid(43ee1459ac65d4e46a3044df0ca9be17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/_Scene-01.unity using Guid(43ee1459ac65d4e46a3044df0ca9be17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d65022df5aef848e9ebbbb383ef7a9') in 0.021351 seconds 
-  Import took 0.026213 seconds .
+  path: Assets/Scripts/Managers/GameManager.cs
+  artifactKey: Guid(2d49296548f6742498c9896ffedace25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/GameManager.cs using Guid(2d49296548f6742498c9896ffedace25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39853303d2bd34930f2cdbca44d0371') in 0.072906 seconds 
+  Import took 0.086689 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000852 seconds.
-  path: Assets/Scenes/_Scene-00.unity
-  artifactKey: Guid(90d245f8eabb1f04e85e3984bf733990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/_Scene-00.unity using Guid(90d245f8eabb1f04e85e3984bf733990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6f50a380160ef31a560ea0dea72ff8') in 0.011199 seconds 
-  Import took 0.016793 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.620873 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  7.366 seconds
-Domain Reload Profiling:
-	ReloadAssembly (7368ms)
-		BeginReloadAssembly (2858ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (4454ms)
-			LoadAssemblies (4357ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1384ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (1348ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (55ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (22ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (306ms)
-				ProcessInitializeOnLoadMethodAttributes (890ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Script is not up to date after domain reload: guid(0cb4dbcdd49ab4648bd320435b5e331f) path("Assets/Scripts/Canvas Managers/HUDCanvas.cs") state(2)
-Script is not up to date after domain reload: guid(b33244b016f29ff4f8df86b07a5b1860) path("Assets/Scripts/Canvas Managers/StartCanvas.cs") state(2)
-Script is not up to date after domain reload: guid(cc79d7a4464472649af30795781c92f1) path("Assets/Scripts/Canvas Managers/EndCanvas.cs") state(2)
-Script is not up to date after domain reload: guid(f5fbab8eced95244090e211c51c83d1c) path("Assets/Scripts/Testing Scripts/TestGame.cs") state(2)
-Script is not up to date after domain reload: guid(2d49296548f6742498c9896ffedace25) path("Assets/Scripts/Managers/GameManager.cs") state(2)
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1488 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.1 MB.
-System memory in use after: 68.1 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1926.
-Total: 2.073500 ms (FindLiveObjects: 0.108500 ms CreateObjectMapping: 0.035600 ms MarkObjects: 1.887000 ms  DeleteObjects: 0.041500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008250 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.124 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1153ms)
-		BeginReloadAssembly (105ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (992ms)
-			LoadAssemblies (90ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (304ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (431ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (169ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (168ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Assertion failed on expression: 'res'
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1493 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.3 MB.
-System memory in use after: 68.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1933.
-Total: 2.893100 ms (FindLiveObjects: 0.177800 ms CreateObjectMapping: 0.067500 ms MarkObjects: 2.594500 ms  DeleteObjects: 0.051900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 78.623524 seconds.
-  path: Assets/Scenes/Game Scenes
-  artifactKey: Guid(de6cf176673a8c149ba851c37add6e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game Scenes using Guid(de6cf176673a8c149ba851c37add6e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9cd3dfeb6fd0ae9c11451d4bb7dff99') in 0.013281 seconds 
-  Import took 0.016981 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.166513 seconds.
-  path: Assets/Scenes/Game Scenes/level_01.unity
-  artifactKey: Guid(99920b949492d584eaec0ad3ad06d1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game Scenes/level_01.unity using Guid(99920b949492d584eaec0ad3ad06d1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15fa261b8bbd178cd93b7a9cce355f74') in 0.015472 seconds 
-  Import took 0.026139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.235664 seconds.
-  path: Assets/Scenes/Game Scenes/level_00.unity
-  artifactKey: Guid(40aafc063e1dc1241a691a73c04e846d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game Scenes/level_00.unity using Guid(40aafc063e1dc1241a691a73c04e846d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658d4d53afd57a9702c15257a03d8ad3') in 0.010248 seconds 
-  Import took 0.014373 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 106.146909 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc088d1731b590f9572c6f2bab98c6a') in 0.010944 seconds 
-  Import took 0.015731 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 125.633823 seconds.
-  path: Assets/Scenes/Menu Scenes/start_scene.unity
-  artifactKey: Guid(950eb5b64988172409c245cf5588095e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Menu Scenes/start_scene.unity using Guid(950eb5b64988172409c245cf5588095e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65fe2b73f6cff2f07e33f7eaa14d797') in 0.013613 seconds 
-  Import took 0.030086 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 135.031589 seconds.
-  path: Assets/Scenes/Game Scenes/_Scene-00.unity
-  artifactKey: Guid(90d245f8eabb1f04e85e3984bf733990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game Scenes/_Scene-00.unity using Guid(90d245f8eabb1f04e85e3984bf733990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d91bb73a274480106720c50c466e754') in 0.006524 seconds 
-  Import took 0.009742 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 36.068000 seconds.
-  path: Assets/Scripts/ApplePicker.cs
-  artifactKey: Guid(c4e16aa3c6540954099e973bdc5c64e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ApplePicker.cs using Guid(c4e16aa3c6540954099e973bdc5c64e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aea548cc5be4f4faf50bf9248aa03c2') in 0.059237 seconds 
-  Import took 0.063401 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 117.640955 seconds.
-  path: Assets/Scripts/Canvas Managers
-  artifactKey: Guid(66ae690733b9d40449b7ddb4724779a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Canvas Managers using Guid(66ae690733b9d40449b7ddb4724779a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdca1a0348318c041a849b65390c2c38') in 0.012605 seconds 
-  Import took 0.034032 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.028207 seconds.
-  path: Assets/Scripts/Canvas Managers/EndCanvas.cs
-  artifactKey: Guid(cc79d7a4464472649af30795781c92f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Canvas Managers/EndCanvas.cs using Guid(cc79d7a4464472649af30795781c92f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a345ee4a8db216255fcaf3b068e864') in 0.012833 seconds 
-  Import took 0.035936 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008432 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.878 seconds
-Domain Reload Profiling:
-	ReloadAssembly (880ms)
-		BeginReloadAssembly (106ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (711ms)
-			LoadAssemblies (95ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (244ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (266ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (177ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.7 MB.
-System memory in use after: 68.8 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1950.
-Total: 2.230200 ms (FindLiveObjects: 0.125000 ms CreateObjectMapping: 0.033600 ms MarkObjects: 2.025200 ms  DeleteObjects: 0.045500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 135.169985 seconds.
-  path: Assets/Scenes/Menu Scenes/start_scene.unity
-  artifactKey: Guid(950eb5b64988172409c245cf5588095e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Menu Scenes/start_scene.unity using Guid(950eb5b64988172409c245cf5588095e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a761a055be16b5b7cf5b08c56d3264') in 0.015476 seconds 
-  Import took 0.038233 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008665 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.909 seconds
-Domain Reload Profiling:
-	ReloadAssembly (911ms)
-		BeginReloadAssembly (114ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (733ms)
-			LoadAssemblies (88ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (254ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (272ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (180ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.7 MB.
-System memory in use after: 68.8 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1952.
-Total: 2.485500 ms (FindLiveObjects: 0.121800 ms CreateObjectMapping: 0.034400 ms MarkObjects: 2.274600 ms  DeleteObjects: 0.053800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 43.753494 seconds.
-  path: Assets/Scenes/Game Scenes/level-00.unity
-  artifactKey: Guid(90d245f8eabb1f04e85e3984bf733990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game Scenes/level-00.unity using Guid(90d245f8eabb1f04e85e3984bf733990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6427f1150fd1302e6a01161ecfc975af') in 0.023635 seconds 
-  Import took 0.046915 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008387 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.893 seconds
-Domain Reload Profiling:
-	ReloadAssembly (895ms)
-		BeginReloadAssembly (120ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (710ms)
-			LoadAssemblies (93ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (240ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (248ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (156ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.7 MB.
-System memory in use after: 68.8 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1954.
-Total: 2.457800 ms (FindLiveObjects: 0.123100 ms CreateObjectMapping: 0.034500 ms MarkObjects: 2.255200 ms  DeleteObjects: 0.044200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008102 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.870 seconds
-Domain Reload Profiling:
-	ReloadAssembly (872ms)
-		BeginReloadAssembly (110ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (706ms)
-			LoadAssemblies (91ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (240ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (251ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (155ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.7 MB.
-System memory in use after: 68.8 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1956.
-Total: 2.674800 ms (FindLiveObjects: 0.120900 ms CreateObjectMapping: 0.034500 ms MarkObjects: 2.469100 ms  DeleteObjects: 0.049100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
