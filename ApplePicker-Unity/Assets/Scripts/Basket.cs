@@ -70,6 +70,8 @@ public class Basket : MonoBehaviour
             Destroy(collideWith);
         }//end if(collideWith.tag == "Apple")
 
+
+        /*Manged by 
         //Set the score
         int score = int.Parse(scoreGT.text); //takes the score text and converts it to a int
         score += 100;
