@@ -15,9 +15,11 @@ using UnityEngine.SceneManagement; //enables scene libraries
 public class ApplePicker : MonoBehaviour
 {
     /**** VARIABLES ****/
+    GameManager gm; //reference to game manager
+
     [Header("SET IN INSPECTOR")]
     public GameObject basketPrefab; //basket prefab
-    public int numberOfbaskets = 3; //number of total baskets at start
+    public int numberOfBaskets; //number of total baskets at start
     public float basketBottomY = -14f; //bottom distance for basket
     public float basketSpacingY = 2F; //distance for each basket
     public List<GameObject> basketList; // list of baskes
@@ -25,8 +27,12 @@ public class ApplePicker : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-    //For totale number of baskets, create baskets
-     for(int i= 0; i<numberOfbaskets; i++)
+        gm = GameManager.GM; //find the game manager
+
+        if (numberOfBaskets == null) { numberOfBaskets = gm.Lives; }
+
+        //For totale number of baskets, create baskets
+        for (int i= 0; i<numberOfBaskets; i++)
         {
             GameObject tBasketGo = Instantiate<GameObject>(basketPrefab);
             Vector3 pos = Vector3.zero;
