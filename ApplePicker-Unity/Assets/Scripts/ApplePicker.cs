@@ -16,22 +16,28 @@ public class ApplePicker : MonoBehaviour
 {
     /**** VARIABLES ****/
     GameManager gm; //reference to game manager
+    GameState gameState; //reference to the current game state
 
     [Header("SET IN INSPECTOR")]
     public GameObject basketPrefab; //basket prefab
     private int numberOfBaskets; //number of total baskets at start
     public float basketBottomY = -14f; //bottom distance for basket
     public float basketSpacingY = 2F; //distance for each basket
+    [HideInInspector]
     public List<GameObject> basketList; // list of baskes
 
     // Start is called before the first frame update
     void Start()
     {
         gm = GameManager.GM; //find the game manager
+        gameState = gm.gameState;// get the game sate
+
+        //if we have not started playing set the defaults
+        if (gameState != GameState.Playing) { gm.SetDefaultGameStats(); }
 
         numberOfBaskets = gm.Lives; //use the lives from game manager
 
-        Debug.Log("baskets " + numberOfBaskets);
+        Debug.Log("baskets " + gm.Lives);
 
         //For totale number of baskets, create baskets
         for (int i= 0; i<numberOfBaskets; i++)

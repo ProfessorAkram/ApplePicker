@@ -68,21 +68,27 @@ public class Basket : MonoBehaviour
 
         {
             Destroy(collideWith);
+
+            /*NEW WITH GM*/
+            int points = collideWith.GetComponent<Apple>().applePoint; //get the point value of the collectable
+            gm.UpdateScore(points);//run the update score method of the GM
+
         }//end if(collideWith.tag == "Apple")
 
 
-        /*Manged by 
+
+        /*NOW MANAGED BY GM
         //Set the score
         int score = int.Parse(scoreGT.text); //takes the score text and converts it to a int
         score += 100;
         scoreGT.text = score.ToString(); //converts new score to string
-
 
         //Update high score if current score is higher
         if(score > HighScore.score)
         {
             HighScore.score = score;
         }//end if(score > HighScore.score)
+        */
 
     }//end OnCollisionEnter(Collision coll)
 }
